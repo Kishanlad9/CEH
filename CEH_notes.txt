@@ -1,0 +1,108 @@
+For geolocation: IP-tracker site
+
+DNS-Zone Transfer: 
+ 1] dig axfr site_name@<name_server>
+	EX: dig axfr www.abc.com@ab1.abc.com
+
+Check live host in subnet: nmap -sn <ip/subnet>
+
+How many user account in domain  use ldap
+ldapsearch -x -h <ip> -b "DC=ABC,DC=com" "objectclass=user" cn
+
+Perform an SMB Enumeration on IP and check whether the Message signing feature is enabled or disabled. Use nmap and check detailed report 
+
+crack the NTLM password hashes john --format=NT file.txt
+
+l0phtCrack tool for password cracking
+Start new session
+Go to Import - > import from remote windows
+Give our IP of network which is given in que and give username and password which is given in question.
+Click on run
+OR
+hydra -l "uname" -P pass.txt ip rdp
+
+
+Use SNOW.exe to extract hidden information
+SNOW.exe -C <filename>
+
+
+Use openstego for extract info from image
+
+
+
+Use Bintext for Analyze the malware and find out the File pos 
+
+
+
+Use Ghidra for Analyze an ELF executable file and get info
+
+
+windows service monitoring and find out the service type associated with display name
+sc qc <service_name>
+
+
+yarsenia for DHCp starvation attack
+
+
+ARP protocol protocol used for sniffing on network
+
+use http.request.method == post for login and in info (application)
+
+
+tcp.flags.syn==1 , tcp.flags.ack==0 for check dos
+
+
+Whatweb is use for http-recon
+
+
+Use hydra for crack FTP uname and pass. Be aware that some folder on desktop has also wordlist
+-L ulist -P passlist
+
+
+Use telnet for banner grabbing with port 80.
+After ‘^]’.
+Press enter and write GET / HTTP/1.0 and hit enter.
+And we get details like ETag 
+
+
+use wappalyzer or wig command for Identify the Content Management System
+
+
+use owasp-zap for crawling on site
+
+use command lbd <sitename> to identify loadbalance service on site
+
+If we had login in site and we get to check  how many user then use cookie with sqlmap
+
+
+| net user with command inj. to find total user
+
+
+
+There is one more option in wireshark Expert Info analysis
+
+
+sisik site use to perform security audit on the mobile application and find out whether the application using permission to Read-call-logs. 
+
+mqtt for IOT traffic and check publish message
+
+
+hashcalc for check hashes
+
+decode the file we can use BCtextencoder
+
+
+advance enc package is use to decrypt the file
+
+
+veractypt is use for decrypt the volume
+
+
+
+cryptool FOR DECRYPT FILE AND GET HIDDEN TEXT
+
+
+
+
+
+
